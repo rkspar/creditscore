@@ -133,6 +133,7 @@
 														<li><a href="#pricing">Pricing</a></li>
 														<li><a href="#reviews">Reviews</a></li>
 														<li><a href="#footer">Contact</a></li>
+														<li><a href="https://beta.scoreceo.com/crystalcreditscorebuilder">Client Login</a></li>
 													</ul>
 												</div>
 
@@ -378,6 +379,7 @@
 									data-start="2500"
 									data-easing="easeOutQuad"
 									data-endspeed="600"><a href="tel:8662497634" class="btn btn-default btn-lg btn-animated">Call: (866) 249-7634 <i class="fa fa-phone"></i></a>
+									<a href="https://beta.scoreceo.com/crystalcreditscorebuilder" class="btn btn-default btn-lg btn-animated">Client Login </a>
 								</div>
 								</li>
 								<!-- slide 2 end -->
@@ -735,24 +737,12 @@ The credit coach told me it was only the beginning and building credit takes tim
 										<div class="alert alert-danger hidden" id="MessageNotSent2">
 											Oops! Something went wrong please refresh the page and try again.
 										</div>
-										<form role="form" id="footer-form" class="margin-clear">
-											<div class="form-group has-feedback mb-10">
-												<label class="sr-only" for="name2">Name</label>
-												<input type="text" class="form-control" id="name2" placeholder="Name" name="name2">
-												<i class="fa fa-user form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback mb-10">
-												<label class="sr-only" for="email2">Email address</label>
-												<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2">
-												<i class="fa fa-envelope form-control-feedback"></i>
-											</div>
-											<div class="form-group has-feedback mb-10">
-												<label class="sr-only" for="message2">Message</label>
-												<textarea class="form-control" rows="4" id="message2" placeholder="Message" name="message2"></textarea>
-												<i class="fa fa-pencil form-control-feedback"></i>
-											</div>
-											<input type="submit" value="Send" class="margin-clear submit-button btn btn-default">
-										</form>
+										
+										<form id='frmWebToLead' method='POST' action='https://beta.scoreceo.com/FormSnippet/SaveFormToLead'><table><tr><td align='right'>First Name</td><td align='left'><input id='txtFirstName' type='text' name='txtFirstName' align='right'/></td></tr><tr><td align='right'>Last Name</td><td align='left'><input id='txtLastName' type='text' name='txtLastName' align='right'/></td></tr><tr><td align='right'>Email</td><td><input id='txtEmail' type='text' name='txtEmail' align='right'/></td></tr><tr><td align='right'>Phone No</td><td align='left'><input id='txtPhoneNo' type='text' name='txtPhoneNo' align='right'/></td></tr><tr><td align='right'>Zip</td><td align='left'><input id='txtPostalCode' type='text' name='txtPostalCode' align='right'/></td></tr><tr><td>&nbsp;</td><td align='center'><input type='submit' name='btnSubmit' value='Submit'/> <br/><input type='hidden' name='hfFormType' value='WebToLead'/> <br/><input type='hidden' name='hfFormId' value='86'/> <br/><input type='hidden' name='hfReturnUrl' value='http://creditscorebuilder.us/'/> <br/><input type='hidden' name='hfErrorUrl' value='http://creditscorebuilder.us/'/> <br/><input type='hidden' id='hfReferralId' name='hfReferralId' value='779'/></td></tr></table></form>
+
+									
+
+
 									</div>
 								</div>
 							</div>
