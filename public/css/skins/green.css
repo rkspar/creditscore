@@ -63,7 +63,7 @@ mark,
 }
 /*Transparent Header*/
 .transparent-header header.header.dark.transparent-header-on {
-  background-color: rgba(60, 67, 61, 0.8);
+  background-color: rgba(220, 220, 220, 1);
   border-top-color: rgba(36, 40, 36, 0.5);
 }
 /*Fixed Navigation*/
@@ -455,12 +455,12 @@ ul.pagination li.active a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #F15A29;
+  color: #696969;
 }
 .transparent-header .header:not(.dark) .navbar-nav > li.open > a,
 .transparent-header .header:not(.dark) .navbar-nav > li > a:hover,
 .transparent-header .header:not(.dark) .navbar-nav > li > a:focus {
-  color: #F15A29;
+  color: #696969;
 }
 /* first level menu item when opened */
 .main-navigation .navbar-nav > .open > a,
@@ -486,7 +486,7 @@ ul.pagination li.active a,
 .dropdown-menu .menu > .active > a:hover,
 .dropdown-menu .menu > .active > a:focus {
   background-color: #fcfcfc;
-  color: #314E67;
+  color: #696969;
   border-color: #f7f7f7;
 }
 /* Mega Menu 
@@ -512,7 +512,7 @@ header:not(.dark) .dropdown-menu > li.active > a i {
   color: #F15A29;
 }
 .transparent-header .header:not(.dark) .dropdown:not(.open):not(.active) > a:before {
-  color: #777777;
+  color: #696969;
 }
 .transparent-header .header:not(.dark) .navbar-default .navbar-nav > .dropdown.open > a:before {
   color: #F15A29;
