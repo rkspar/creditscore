@@ -2365,7 +2365,7 @@ fieldset[disabled] .btn-default {
 /*Dark Button*/
 .btn-dark {
   color: #ffffff;
-  background-color: #373737;
+  background-color: #314E67;
   border-color: #333333;
 }
 .btn-dark:hover,
@@ -2375,7 +2375,7 @@ fieldset[disabled] .btn-default {
 .btn-dark.active,
 .open > .dropdown-toggle.btn-dark {
   color: #ffffff;
-  background-color: #111111;
+  background-color: #F15A29;
   border-color: #111111;
 }
 .dark-bg .btn-dark {
@@ -2688,7 +2688,7 @@ fieldset[disabled] .btn-default {
   border-width: 31px 14px 0 0;
 }
 .nav-tabs.style-1 > li.active > a {
-  background-color: #333333!important;
+  background-color: #314E67!important;
 }
 .nav-tabs.style-1 > li.active > a,
 .nav-tabs.style-1 > li.active > a:hover,
